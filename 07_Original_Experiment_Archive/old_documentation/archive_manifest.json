@@ -1,0 +1,326 @@
+[
+  {
+    "archive_path": "01_Datasets/metr-la.h5",
+    "bytes": 57038056
+  },
+  {
+    "archive_path": "01_Datasets/pems-bay-dst-corrected.h5",
+    "bytes": 68178120
+  },
+  {
+    "archive_path": "01_Datasets/pems-bay.h5",
+    "bytes": 135930936
+  },
+  {
+    "archive_path": "02_Source_Code/01_Traffic_Dataset_Exploration.ipynb",
+    "bytes": 1800808
+  },
+  {
+    "archive_path": "03_Models_and_Results/corrected_full_network/xgboost_15min.pkl",
+    "bytes": 846059
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_lstm_15min.pth",
+    "bytes": 72137
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_lstm_30min.pth",
+    "bytes": 72137
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_lstm_60min.pth",
+    "bytes": 72137
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_metadata_15min.json",
+    "bytes": 403
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_xgboost_15min.pkl",
+    "bytes": 845923
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_xgboost_30min.pkl",
+    "bytes": 847689
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_base_xgboost_60min.pkl",
+    "bytes": 848777
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_fusion_15min.pth",
+    "bytes": 11221
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_fusion_30min.pth",
+    "bytes": 11221
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_fusion_60min.pth",
+    "bytes": 11221
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_results_15min.json",
+    "bytes": 478
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_results_30min.json",
+    "bytes": 1381
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/hybrid_results_60min.json",
+    "bytes": 1376
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/lstm_15min.pth",
+    "bytes": 71929
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/metadata_15min.json",
+    "bytes": 948
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/multi_horizon_results.csv",
+    "bytes": 1602
+  },
+  {
+    "archive_path": "03_Models_and_Results/full_network/xgboost_15min.pkl",
+    "bytes": 847013
+  },
+  {
+    "archive_path": "03_Models_and_Results/fusion_experiments/weighted_fusion_15min_validation.csv",
+    "bytes": 993
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/hybrid_15min.pth",
+    "bytes": 11151
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/hybrid_30min.pth",
+    "bytes": 11151
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/hybrid_60min.pth",
+    "bytes": 11151
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/lstm_15min.pth",
+    "bytes": 71929
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/lstm_30min.pth",
+    "bytes": 71929
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/lstm_60min.pth",
+    "bytes": 71929
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/metadata_15min.json",
+    "bytes": 1229
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/metadata_30min.json",
+    "bytes": 1229
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/metadata_60min.json",
+    "bytes": 1227
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/pems_bay_all_results.csv",
+    "bytes": 2305
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/results_15min.json",
+    "bytes": 3904
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/results_30min.json",
+    "bytes": 3887
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/results_60min.json",
+    "bytes": 3890
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/xgboost_15min.pkl",
+    "bytes": 846537
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/xgboost_30min.pkl",
+    "bytes": 846331
+  },
+  {
+    "archive_path": "03_Models_and_Results/pems_bay/xgboost_60min.pkl",
+    "bytes": 847761
+  },
+  {
+    "archive_path": "03_Models_and_Results/performance_results/metr_la_model_efficiency.csv",
+    "bytes": 749
+  },
+  {
+    "archive_path": "03_Models_and_Results/shap_results/metr_la_shap_comparison.csv",
+    "bytes": 2127
+  },
+  {
+    "archive_path": "03_Models_and_Results/shap_results/metr_la_shap_horizon_comparison.png",
+    "bytes": 148877
+  },
+  {
+    "archive_path": "03_Models_and_Results/shap_results/shap_importance_15min.csv",
+    "bytes": 508
+  },
+  {
+    "archive_path": "03_Models_and_Results/shap_results/shap_importance_30min.csv",
+    "bytes": 505
+  },
+  {
+    "archive_path": "03_Models_and_Results/shap_results/shap_importance_60min.csv",
+    "bytes": 502
+  },
+  {
+    "archive_path": "03_Models_and_Results/test_results/metr_la_15min_condition_analysis.csv",
+    "bytes": 673
+  },
+  {
+    "archive_path": "03_Models_and_Results/test_results/metr_la_test_comparison.csv",
+    "bytes": 962
+  },
+  {
+    "archive_path": "03_Models_and_Results/test_results/metr_la_test_correct_feature_order.csv",
+    "bytes": 962
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_Efficiency_Results/benchmark_metadata.json",
+    "bytes": 543
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_Efficiency_Results/pems_bay_latency_comparison.png",
+    "bytes": 111841
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_Efficiency_Results/pems_bay_model_efficiency.csv",
+    "bytes": 951
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_SHAP_Results/pems_bay_shap_comparison.csv",
+    "bytes": 1321
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_SHAP_Results/pems_bay_shap_horizon_comparison.png",
+    "bytes": 150594
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_SHAP_Results/shap_importance_15min.csv",
+    "bytes": 504
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_SHAP_Results/shap_importance_30min.csv",
+    "bytes": 500
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_SHAP_Results/shap_importance_60min.csv",
+    "bytes": 499
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_SHAP_Results/shap_metadata.json",
+    "bytes": 991
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_Zero_Sensitivity/methodology.json",
+    "bytes": 534
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_Zero_Sensitivity/zero_sensitivity_summary.csv",
+    "bytes": 1810
+  },
+  {
+    "archive_path": "04_Research_Artifacts/PEMS_BAY_Zero_Sensitivity/zero_target_predictions.csv",
+    "bytes": 168907
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/cross_dataset_comparison.csv",
+    "bytes": 762
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/hybrid_improvements.csv",
+    "bytes": 260
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/model_file_hashes.csv",
+    "bytes": 1450
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/model_metadata_summary.csv",
+    "bytes": 209
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/pems_bay_verified_metrics.csv",
+    "bytes": 2305
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/research_limitations.csv",
+    "bytes": 970
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/validation_checks.csv",
+    "bytes": 1279
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Research_Validation_Results/zero_speed_audit.csv",
+    "bytes": 227
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Traffic_Research_Final_Documentation/Cross_Dataset_Improvements.csv",
+    "bytes": 517
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Traffic_Research_Final_Documentation/File_Inventory.csv",
+    "bytes": 4944
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Traffic_Research_Final_Documentation/Missing_Files_Report.txt",
+    "bytes": 45
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Traffic_Research_Final_Documentation/Research_Results_Report.md",
+    "bytes": 5767
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Traffic_Research_Final_Documentation/Uncertainty_Summary.csv",
+    "bytes": 213
+  },
+  {
+    "archive_path": "04_Research_Artifacts/Traffic_Research_Final_Documentation/Verified_Test_Results.csv",
+    "bytes": 1408
+  },
+  {
+    "archive_path": "04_Research_Artifacts/traffic_data/metr_la_base_cleaned.pkl",
+    "bytes": 28666321
+  },
+  {
+    "archive_path": "04_Research_Artifacts/traffic_research/uncertainty/pems_bay_daily_errors.csv",
+    "bytes": 13006
+  },
+  {
+    "archive_path": "04_Research_Artifacts/traffic_research/uncertainty/pems_bay_daily_improvement.png",
+    "bytes": 329882
+  },
+  {
+    "archive_path": "04_Research_Artifacts/traffic_research/uncertainty/pems_bay_uncertainty_summary.csv",
+    "bytes": 591
+  },
+  {
+    "archive_path": "04_Research_Artifacts/traffic_research/uncertainty/uncertainty_methodology.json",
+    "bytes": 557
+  },
+  {
+    "archive_path": "05_Documentation/README.md",
+    "bytes": 2044
+  },
+  {
+    "archive_path": "05_Documentation/requirements.txt",
+    "bytes": 70
+  }
+]
