@@ -1,0 +1,10 @@
+# Suggested libraries; original runtime versions not pinned
+numpy
+pandas
+tables
+scikit-learn
+xgboost
+torch
+joblib
+shap
+matplotlib
