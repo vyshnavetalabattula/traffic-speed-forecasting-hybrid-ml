@@ -1,0 +1,15 @@
+{
+    "dataset": "METR-LA",
+    "num_sensors": 207,
+    "horizon_minutes": 15,
+    "evaluation": "validation",
+    "validation_samples": 660000,
+    "base_xgboost_mae": 2.90578031539917,
+    "base_xgboost_rmse": 5.409519155290521,
+    "base_xgboost_mape": 7.7895989418029785,
+    "hybrid_mae": 2.917851686477661,
+    "hybrid_rmse": 5.401620106145763,
+    "hybrid_mape": 7.8279547691345215,
+    "hybrid_mae_improvement_percent": -0.4154261426618878,
+    "fusion_best_epoch": 12
+}

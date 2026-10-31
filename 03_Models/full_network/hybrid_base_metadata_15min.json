@@ -1,0 +1,14 @@
+{
+    "dataset": "METR-LA",
+    "num_sensors": 207,
+    "horizon_minutes": 15,
+    "sequence_length": 12,
+    "lstm_hidden_units": 64,
+    "input_mean": 58.54210662841797,
+    "input_std": 12.824616478515624,
+    "target_mean": 58.49685287475586,
+    "target_std": 12.882095383239745,
+    "base_cutoff": "2012-04-28 07:25:00",
+    "fusion_start": "2012-04-28 08:40:00",
+    "training_samples": 3165381
+}

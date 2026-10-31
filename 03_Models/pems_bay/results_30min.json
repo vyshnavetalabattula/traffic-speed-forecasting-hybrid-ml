@@ -1,0 +1,133 @@
+{
+    "metadata": {
+        "dataset": "PEMS-BAY",
+        "sensors": 325,
+        "horizon_minutes": 30,
+        "feature_names": [
+            "lag_0",
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_4",
+            "lag_5",
+            "lag_6",
+            "lag_7",
+            "lag_8",
+            "lag_9",
+            "lag_10",
+            "lag_11",
+            "rolling_mean_3",
+            "rolling_std_3",
+            "rolling_mean_6",
+            "rolling_std_6",
+            "rolling_mean_12",
+            "rolling_std_12",
+            "trend_3",
+            "hour_sin",
+            "hour_cos",
+            "day_sin",
+            "day_cos",
+            "weekend"
+        ],
+        "sequence_length": 12,
+        "lstm_hidden_size": 64,
+        "zero_as_missing": true,
+        "forward_fill_limit": 6,
+        "timezone": "America/Los_Angeles",
+        "base_cutoff": "2017-03-30 17:00:00-07:00",
+        "train_cutoff": "2017-05-07 17:05:00-07:00",
+        "validation_cutoff": "2017-05-25 19:20:00-07:00",
+        "fusion_start": "2017-03-30 18:30:00-07:00",
+        "base_samples": 8293675,
+        "fusion_samples": 3549153,
+        "val_samples": 1693443,
+        "test_samples": 3387583,
+        "best_fusion_epoch": 19,
+        "input_mean": 62.594139099121094,
+        "input_std": 9.569554328918457,
+        "target_mean": 62.58731460571289,
+        "target_std": 9.576627731323242
+    },
+    "metrics": [
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Validation",
+            "Horizon": "30min",
+            "Model": "Persistence",
+            "Samples": 1693443,
+            "MAE": 2.3779622937786646,
+            "RMSE": 5.398703560992791,
+            "MAPE (%)": 5.250981480294047
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Validation",
+            "Horizon": "30min",
+            "Model": "XGBoost",
+            "Samples": 1693443,
+            "MAE": 2.11324809162345,
+            "RMSE": 4.467299080573827,
+            "MAPE (%)": 5.0069004338476795
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Validation",
+            "Horizon": "30min",
+            "Model": "LSTM",
+            "Samples": 1693443,
+            "MAE": 2.271427803741954,
+            "RMSE": 4.826802996793165,
+            "MAPE (%)": 5.39866736921474
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Validation",
+            "Horizon": "30min",
+            "Model": "Hybrid",
+            "Samples": 1693443,
+            "MAE": 2.086600192216333,
+            "RMSE": 4.388484894275523,
+            "MAPE (%)": 4.950032584756694
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Test",
+            "Horizon": "30min",
+            "Model": "Persistence",
+            "Samples": 3387583,
+            "MAE": 2.17357818310527,
+            "RMSE": 4.953988076714412,
+            "MAPE (%)": 4.643814491044691
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Test",
+            "Horizon": "30min",
+            "Model": "XGBoost",
+            "Samples": 3387583,
+            "MAE": 1.969121567063658,
+            "RMSE": 4.154293536656431,
+            "MAPE (%)": 4.524397131900985
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Test",
+            "Horizon": "30min",
+            "Model": "LSTM",
+            "Samples": 3387583,
+            "MAE": 2.094321045227023,
+            "RMSE": 4.468234456267983,
+            "MAPE (%)": 4.810976225788717
+        },
+        {
+            "Dataset": "PEMS-BAY",
+            "Split": "Test",
+            "Horizon": "30min",
+            "Model": "Hybrid",
+            "Samples": 3387583,
+            "MAE": 1.9525888391383686,
+            "RMSE": 4.107001763570295,
+            "MAPE (%)": 4.49839244837319
+        }
+    ]
+}
